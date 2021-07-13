@@ -1,0 +1,23 @@
+{
+  "name": "module2",
+  "version": "1.0.0",
+  "description": "participants_module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "11.0.0",
+    "npm": "7.6.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-static": "^1.2.6",
+    "mongoose": "^5.12.13",
+    "normalize-mongoose": "^0.0.1"
+  }
+}
